@@ -1,17 +1,17 @@
-# Lista Zadań & Timer Pomodoro
+# To-Do List & TimerPomodoro 🎓
 
-Aplikacja składa się z dwóch części:
+Program consists of two parts:
 
-## Lista Zadań
-W module Lista Zadań użytkownik może:
-- Dodawać nowe zadania do listy (wpisuje zadania w okienku tekstowym i dodaje je za pomocą przycisku lub klawisza Enter). Jeśli użytkownik nie wpisze żadnych zadań, program wyświetli stosowną wiadomość.
-- Zaznaczać i usuwać wybrane zadania z listy.
-- Zapisywać zadania do pliku `tasks.dat`. Jeśli użytkownik próbuje zapisać pustą listę zadań, program wyświetli odpowiednią informację.
-- Po kliknięciu przycisku X (zamykanie okna) program wyświetli pytanie, czy użytkownik chce zapisać wprowadzone zmiany przed wyjściem. Jeśli użytkownik próbuje zapisać pustą listę zadań, program poinformuje go o tym.
+## ToDo List ✅
+In the ToDo List, the user can:
+- Enter and add tasks to the list (tasks are entered in a text field and can be submitted using a button or the Enter key). If the user doesn't enter any tasks, the program will display a message.
+- Select and delete tasks from the list.
+- Save tasks to a `tasks.dat` file. If the user tries to save an empty task list, the program will display a message.
+- When the user clicks the X button (to close the window), the program will display a message asking whether the user wants to save changes before exiting. If the user tries to save an empty task list, the program will notify them.
 
-## Timer Pomodoro
-Timer Pomodoro to czasomierz, który odmierza bloki czasowe: 25 minut pracy, po których następuje 5-minutowa przerwa. Po 4 takich blokach czasowych następuje 15-minutowa przerwa, i tak dalej. Po każdym zakończonym odliczaniu 25 minut program odtwarza krótki dźwięk, informujący o rozpoczęciu przerwy.
-Użytkownik ma możliwość zresetowania timera lub pominiecia bieżącego odliczania.
+## TimerPomodoro ⏰
+The TimerPomodoro is a timer that counts down a 25-minute work session, followed by a 5-minute break. After 4 work sessions, there is a 15-minute break, and so on. After each 25-minute countdown, the program plays a short sound to indicate the start of a break.
+The user can reset the timer or skip the current countdown.
 
-**UWAGA:**
-Przed uruchomieniem aplikacji zaleca się pobranie pliku `tasks.dat`, który zawiera przykładowe zadania do wyświetlenia, jednak nie jest to konieczne.
+**NOTE:**
+Before running the program, it is recommended to download the `tasks.dat` file, which already contains sample tasks to display, although it is not necessary.
